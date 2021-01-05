@@ -29,10 +29,10 @@ Navigation relies on the dark background: Ensure that adding or removing menu it
 
 #### Slider
 
-For large viewports (`>=1024px`) the slider is interactive. Every 6 seconds a new slide appears. The slides loop around.
-The horizontal line above the paragraph doubles as a progress indicator.
-Clicking the indicator dots (on the right side) changes slides to the chosen index.
-The indicator text (on the left side) reflects the current slide.
+For large viewports (`>=1024px`) the slider is interactive. Every 6 seconds a new slide appears. The slides loop around.\
+The horizontal line above the paragraph doubles as a progress indicator.\
+Clicking the indicator dots (on the right side) changes slides to the chosen index.\
+The indicator text (on the left side) reflects the current slide.\
 Each slide's text animates in/out. Feel free to implement that as you desire.
 
 Keep accessibility in front of your mind, e.g. make sure the slider has keyboard support and think about how screen readers might read the slider.
@@ -51,8 +51,8 @@ For small viewports (`<1024px`) the slider is static and only displays the first
 
 ### Tech stack
 
-For the sake of time this project doesn't require TypeScript.
-This project includes the following libraries:
+For the sake of time this project doesn't require TypeScript.\
+This project includes the following libraries:\
 **CSS in JS**: [styled-components](https://github.com/styled-components/styled-components)\
 **Animation**: [Framer Motion](https://github.com/framer/motion)
 
