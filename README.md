@@ -39,7 +39,7 @@ Keep accessibility in front of your mind, e.g. make sure the slider has keyboard
 
 ### Mobile view
 
-![Mobile view](https://user-images.githubusercontent.com/8494120/103651670-e05ff200-4f59-11eb-9406-0f7ddadd0c3c.png)
+![Mobile view](https://user-images.githubusercontent.com/8494120/103651934-3c2a7b00-4f5a-11eb-8e32-5ceed2aedd71.png)
 
 #### Navigation
 
