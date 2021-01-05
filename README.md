@@ -8,9 +8,9 @@ The provided data is similar to how a JSON API would respond.
 
 ### Data and assets
 
-Data can be found in `src/data.json`
-Logo can be found in `public/logo.svg`
-Font files can be found in `public/fonts/*`
+Data can be found in `src/data.json`\
+Logo can be found in `public/logo.svg`\
+Font files can be found in `public/fonts/*`\
 Theme has been specified in `src/theme.js`
 
 [Desktop design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A33)\
@@ -33,7 +33,8 @@ For large viewports (`>=1024px`) the slider is interactive. Every 6 seconds a ne
 The horizontal line above the paragraph doubles as a progress indicator.\
 Clicking the indicator dots (on the right side) changes slides to the chosen index.\
 The indicator text (on the left side) reflects the current slide.\
-Each slide's text animates in/out. Feel free to implement that as you desire.
+Each slide's text animates in/out. Feel free to implement that as you desire.\
+All images should be displayed using the same aspect-ratio (designed as 920x506 = ratio of 20:11).
 
 Keep accessibility in front of your mind, e.g. make sure the slider has keyboard support and think about how screen readers might read the slider.
 
@@ -50,6 +51,7 @@ The menu call-to-action shouldn't do anything.
 For small viewports (`<1024px`) the slider is static and only displays the first slide.
 
 ### Tech stack
+
 For the sake of time this project doesn't require TypeScript and (using Create React App) is client-side rendered only.\
 This project includes the following libraries:\
 **CSS in JS**: [styled-components](https://github.com/styled-components/styled-components)\
