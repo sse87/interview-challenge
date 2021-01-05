@@ -20,7 +20,7 @@ Theme has been specified in `src/theme.js`
 
 Press `ctrl+g` in Figma to visualize the 14 column grid.
 
-![image](https://user-images.githubusercontent.com/8494120/103651391-6def1200-4f59-11eb-8d85-0c55c863ab0b.png)
+![Desktop view](https://user-images.githubusercontent.com/8494120/103651391-6def1200-4f59-11eb-8d85-0c55c863ab0b.png)
 
 #### Navigation
 
@@ -39,7 +39,7 @@ Keep accessibility in front of your mind, e.g. make sure the slider has keyboard
 
 ### Mobile view
 
-![image](https://user-images.githubusercontent.com/8494120/103651441-82cba580-4f59-11eb-991c-fd630685d169.png)
+![Mobile view](https://user-images.githubusercontent.com/8494120/103651670-e05ff200-4f59-11eb-9406-0f7ddadd0c3c.png)
 
 #### Navigation
 
