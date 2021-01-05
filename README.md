@@ -13,14 +13,14 @@ Logo can be found in `public/logo.svg`
 Font files can be found in `public/fonts/*`
 Theme has been specified in `src/theme.js`
 
-[https://www.figma.com/file/JZW7cMo3GKXblQTMlsvTp2/Werk-UI-Kit?node-id=264%3A1194](Desktop design in Figma)
-[https://www.figma.com/file/JZW7cMo3GKXblQTMlsvTp2/Werk-UI-Kit?node-id=264%3A1218](Mobile design in Figma)
+[Desktop design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A33)\
+[Mobile design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A48)
 
 ### Desktop view
 
 Press `ctrl+g` in Figma to visualize the 14 column grid.
 
-[image here]
+![image](https://user-images.githubusercontent.com/8494120/103651391-6def1200-4f59-11eb-8d85-0c55c863ab0b.png)
 
 #### Navigation
 
@@ -39,7 +39,7 @@ Keep accessibility in front of your mind, e.g. make sure the slider has keyboard
 
 ### Mobile view
 
-[image here]
+![image](https://user-images.githubusercontent.com/8494120/103651441-82cba580-4f59-11eb-991c-fd630685d169.png)
 
 #### Navigation
 
@@ -53,8 +53,8 @@ For small viewports (`<1024px`) the slider is static and only displays the first
 
 For the sake of time this project doesn't require TypeScript.
 This project includes the following libraries:
-**CSS in JS**: [https://github.com/styled-components/styled-components](styled-components)
-**Animation**: [https://github.com/framer/motion](Framer Motion)
+**CSS in JS**: [styled-components](https://github.com/styled-components/styled-components)\
+**Animation**: [Framer Motion](https://github.com/framer/motion)
 
 Feel free to switch them out for something you're more comfortable with, e.g. `yarn add gsap` or `yarn add react-spring` instead of `framer-motion`.
 
