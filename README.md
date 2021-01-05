@@ -2,8 +2,8 @@
 
 ## Project brief
 
-You are making the top section of a typical marketing website's home page. There is a top navigation and a slider that are very visually coupled.
-The website has a max-width of 1440px and centers horizontally on larger than 1440px viewports.
+You are making the top section of a typical marketing website's home page. There is a top navigation and a slider that are very visually coupled.\
+The website has a max-width of `1440px` and centers horizontally on `>1440px` viewports.\
 The provided data is similar to how a JSON API would respond.
 
 ### Data and assets
@@ -50,8 +50,7 @@ The menu call-to-action shouldn't do anything.
 For small viewports (`<1024px`) the slider is static and only displays the first slide.
 
 ### Tech stack
-
-For the sake of time this project doesn't require TypeScript.\
+For the sake of time this project doesn't require TypeScript and (using Create React App) is client-side rendered only.\
 This project includes the following libraries:\
 **CSS in JS**: [styled-components](https://github.com/styled-components/styled-components)\
 **Animation**: [Framer Motion](https://github.com/framer/motion)
@@ -60,9 +59,7 @@ Feel free to switch them out for something you're more comfortable with, e.g. `y
 
 Feel free to take whatever approach to CSS as you wish. Whether that's `CSS Grid Layout`/`Flexbox`. `JS variables`/`CSS custom properties`. `CSS keyframes`/`className toggling`. The world is your oyster.
 
-## Available Scripts
-
-In the project directory, you can run:
+## Running the project
 
 ### `yarn start`
 
