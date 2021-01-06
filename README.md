@@ -9,9 +9,10 @@ The provided data is similar to how a JSON API would respond.
 ### Data and assets
 
 Data can be found in `src/data.json`\
+Images can be found in `public/images/*`\
 Logo can be found in `public/logo.svg`\
-Font files can be found in `public/fonts/*`\
 Theme has been specified in `src/theme.js`
+Font files (`Work sans (300, 400, 500, 600)`) are served through Google Fonts CDN (see `/public/index.html`)\
 
 [Desktop design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A33)\
 [Mobile design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A48)
@@ -24,7 +25,6 @@ Press `ctrl+g` in Figma to visualize the 14 column grid.
 
 #### Navigation
 
-All menu items link to `"/"`.
 Navigation relies on the dark background: Ensure that adding or removing menu items, or shrinking/enlarging the viewport, won't result in losing readability or design features.
 
 #### Slider
@@ -44,11 +44,11 @@ Keep accessibility in front of your mind, e.g. make sure the slider has keyboard
 
 #### Navigation
 
-The menu call-to-action shouldn't do anything.
+On mobile devices the menu call-to-action doesn't do anything. You don't have to implement a mobile menu.
 
 #### Slider
 
-For small viewports (`<1024px`) the slider is static and only displays the first slide.
+For small viewports (`<1024px`) the slider is _static_ and **only displays the first slide**.
 
 ### Tech stack
 
