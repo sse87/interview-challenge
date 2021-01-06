@@ -3,15 +3,15 @@
 ## Project brief
 
 You are making the top section of a typical marketing website's home page. There is a top navigation and a slider that are very visually coupled.\
-The website has a max-width of `1440px` and centers horizontally on `>1440px` viewports.\
+The website has a max-width of `1280px` and centers horizontally on `>1280px` viewports.\
 The provided data is similar to how a JSON API would respond.
 
 ### Data and assets
 
 Data can be found in `src/data.json`\
 Images can be found in `public/images/*`\
-Logo can be found in `public/logo.svg`\
-Theme has been specified in `src/theme.js`
+Logo can be found in `public/logo.svg` (Inline this SVG if you want)\
+Theme has been specified in `src/theme.js` (Add to the theme anything you want)\
 Font files (`Work sans (300, 400, 500, 600)`) are served through Google Fonts CDN (see `/public/index.html`)\
 
 [Desktop design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A33)\
