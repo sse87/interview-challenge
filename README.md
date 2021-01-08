@@ -75,3 +75,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Delivering the project
+
+When the time limit is reached you should make a last commit and either
+* make a private Github repo and invite the reviewer
+* email a zip file excluding `node_modules` to the reviewer
