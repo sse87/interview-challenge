@@ -3,7 +3,7 @@ export const theme = {
     sm: 375,
     md: 768,
     lg: 1024,
-    xl: 1440,
+    xl: 1280,
   },
   colors: {
     dark: "#333",
