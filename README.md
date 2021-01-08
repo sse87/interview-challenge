@@ -12,7 +12,7 @@ Data can be found in `src/data.json`\
 Images can be found in `public/images/*`\
 Logo can be found in `public/logo.svg` (Inline this SVG if you want)\
 Theme has been specified in `src/theme.js` (Add to the theme anything you want)\
-Font files (`Work sans (300, 400, 500, 600)`) are served through Google Fonts CDN (see `/public/index.html`)\
+Font files (`Work sans (300, 400, 500, 600)`) are served through Google Fonts CDN and is ready to use (see `/public/index.html`)
 
 [Desktop design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A33)\
 [Mobile design in Figma](https://www.figma.com/file/h3XWe6bnNy9CDSf6bY4rGG/Werk-Aranja-interview-challenge?node-id=1%3A48)
@@ -25,13 +25,13 @@ Press `ctrl+g` in Figma to visualize the 14 column grid.
 
 #### Navigation
 
-Navigation relies on the dark background: Ensure that adding or removing menu items, or shrinking/enlarging the viewport, won't result in losing readability or design features.
+The navigation relies on the dark background; ensure that adding or removing menu items, or shrinking/enlarging the viewport, won't result in losing readability or design features.
 
 #### Slider
 
 For large viewports (`>=1024px`) the slider is interactive. Every 6 seconds a new slide appears. The slides loop around.\
 The horizontal line above the paragraph doubles as a progress indicator.\
-Clicking the indicator dots (on the right side) changes slides to the chosen index.\
+Clicking the pagination dots (on the right side of the image) changes slides to the chosen index.\
 The indicator text (on the left side) reflects the current slide.\
 Each slide's text animates in/out. Feel free to implement that as you desire.\
 All images should be displayed using the same aspect-ratio (designed as 920x506 = ratio of 20:11).
@@ -62,6 +62,11 @@ Feel free to switch them out for something you're more comfortable with, e.g. `y
 Feel free to take whatever approach to CSS as you wish. Whether that's `CSS Grid Layout`/`Flexbox`. `JS variables`/`CSS custom properties`. `CSS keyframes`/`className toggling`. The world is your oyster.
 
 ## Running the project
+
+### `git clone https://github.com/aranja/interview-challenge.git`
+
+### `yarn`
+Installs dependencies
 
 ### `yarn start`
 
