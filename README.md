@@ -25,18 +25,18 @@ Press `ctrl+g` in Figma to visualize the 14 column grid.
 
 #### Navigation
 
-The navigation relies on the dark background; ensure that adding or removing menu items, or shrinking/enlarging the viewport, won't result in losing readability or design features.
+The navigation relies on the dark background; **ensure that adding or removing menu items, or shrinking/enlarging the viewport, won't result in losing readability or design features**.
 
 #### Slider
 
-For large viewports (`>=1024px`) the slider is interactive. Every 6 seconds a new slide appears. The slides loop around.\
-The horizontal line above the paragraph doubles as a progress indicator.\
+For large viewports (`>=1024px`) the slider is interactive. Every **6 seconds a new slide appears**. The slides loop around.\
+The horizontal line above the paragraph doubles as a progress indicator for the 6 second timer.\
 Clicking the pagination dots (on the right side of the image) changes slides to the chosen index.\
 The indicator text (on the left side) reflects the current slide.\
 Each slide's text animates in/out. Feel free to implement that as you desire.\
-All images should be displayed using the same aspect-ratio (designed as 920x506 = ratio of 20:11).
+All images should be displayed **using the same aspect-ratio** (designed as 920x506 = ratio of 20:11).
 
-Keep accessibility in front of your mind, e.g. make sure the slider has keyboard support and think about how screen readers might read the slider.
+Keep accessibility in front of your mind, e.g. **make sure the slider has keyboard support** and think about how screen readers might read the slider.
 
 ### Mobile view
 
