@@ -63,8 +63,6 @@ Feel free to take whatever approach to CSS as you wish. Whether that's `CSS Grid
 
 ## Running the project
 
-### `git clone https://github.com/aranja/interview-challenge.git`
-
 ### `yarn`
 Installs dependencies
 
