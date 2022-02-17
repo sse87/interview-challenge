@@ -9,8 +9,8 @@ The provided data is similar to how a JSON API would respond.
 ### Data and assets
 
 Data can be found in `src/data.json`\
-Images can be found in `public/images/*`\
-Logo can be found in `public/logo.svg` (Inline this SVG if you want)\
+Images can be found in `src/images/*`\
+Logo can be found in `src/logo.svg` (Inline this SVG if you want)\
 Theme has been specified in `src/theme.js` (Add to the theme anything you want)\
 Font files (`Work sans (300, 400, 500, 600)`) are served through Google Fonts CDN and is ready to use (see `/public/index.html`)
 
@@ -64,9 +64,11 @@ Feel free to take whatever approach to CSS as you wish. Whether that's `CSS Grid
 ## Running the project
 
 ### `git clone https://github.com/aranja/interview-challenge.git`
+
 Grab a copy of the project
 
 ### `yarn`
+
 Installs dependencies
 
 ### `yarn start`
@@ -79,6 +81,7 @@ You will also see any lint errors in the console.
 
 ## Delivering the project
 
-When the time limit is reached you should make a last commit and either
-* make a private Github repo and invite the reviewer
-* email a zip file excluding `node_modules` to the reviewer
+Either
+
+- make a private Github repo and invite the reviewer
+- email a zip file excluding `node_modules` to the reviewer
