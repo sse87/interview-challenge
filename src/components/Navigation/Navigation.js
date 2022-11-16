@@ -1,9 +1,18 @@
-function Navigation() {
+const Navigation = ({ items }) => {
   return (
-    <nav>
-      <button>Menu</button>
+    <nav aria-label='Main'>
+      <ul>
+        {items.map(({ url, title }) => (
+          <li>
+            <a href={url}>{title}</a>
+          </li>
+        ))}
+      </ul>
+      <button className='contact-us'>Let’s talk</button>
+
+      <button className='menu'>Menu</button>
     </nav>
   );
-}
+};
 
 export default Navigation;

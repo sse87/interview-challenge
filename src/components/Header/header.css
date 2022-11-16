@@ -1,0 +1,58 @@
+header {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 1280px) {
+  header {
+    max-width: 1280px;
+    margin: 1.5rem auto;
+  }
+}
+
+header .logo {
+  height: 24px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav button {
+  background-color: #fec483;
+  height: 36px;
+  width: 110px;
+}
+header nav button.contact-us {
+  display: none;
+}
+@media (min-width: 1280px) {
+  header nav button {
+    height: 48px;
+    width: 145px;
+  }
+  header nav button.menu {
+    display: none;
+  }
+  header nav button.contact-us {
+    display: block;
+  }
+}
+
+header nav ul {
+  display: none;
+}
+@media (min-width: 1280px) {
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 2.875rem;
+  }
+  header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

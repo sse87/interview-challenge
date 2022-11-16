@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './app.css';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import data from './data.json';
 import img1 from './images/slide-think-make-solve.jpg';
 
@@ -10,12 +9,7 @@ function App() {
   return (
     <div className='app'>
       {hasSlides && <div className='background-box' />}
-      <header>
-        <a href='/'>
-          <img className='logo' src={logo} alt='Werk logo' />
-        </a>
-        <Navigation />
-      </header>
+      <Header navigation={data.navigation} />
       <main>
         <ul className='carousel-slides'>
           {hasSlides && (

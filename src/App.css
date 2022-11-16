@@ -6,23 +6,13 @@
   right: 0;
   z-index: -1;
   aspect-ratio: 20 / 11;
+  transition: top 200ms ease;
 }
-
-header {
-  margin: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header .logo {
-  height: 24px;
-}
-
-header nav button {
-  background-color: #fec483;
-  height: 36px;
-  width: 110px;
+@media (min-width: 1280px) {
+  .app .background-box {
+    top: 0;
+    width: 50%;
+  }
 }
 
 main {
