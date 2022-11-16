@@ -1,5 +1,9 @@
 function Navigation() {
-  return <nav>Navigation here</nav>;
+  return (
+    <nav>
+      <button>Menu</button>
+    </nav>
+  );
 }
 
 export default Navigation;

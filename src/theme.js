@@ -7,8 +7,8 @@ export const theme = {
   },
   colors: {
     dark: '#333',
-    light: '#FFF',
-    primary: '#FEC483',
-    text: '#1A1A1F',
+    light: '#fff',
+    primary: '#fec483',
+    text: '#1a1a1f',
   },
 };

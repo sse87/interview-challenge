@@ -1,3 +1,58 @@
-.App {
-  text-align: center;
+.app .background-box {
+  background-color: #333333;
+  width: calc(100% - 3rem);
+  position: absolute;
+  top: 121px;
+  right: 0;
+  z-index: -1;
+  aspect-ratio: 20 / 11;
+}
+
+header {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  height: 24px;
+}
+
+header nav button {
+  background-color: #fec483;
+  height: 36px;
+  width: 110px;
+}
+
+main {
+  margin: 0 1.5rem;
+}
+
+main ul.carousel-slides {
+  position: relative;
+  height: 100%;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 3.75rem;
+}
+
+main ul.carousel-slides li {
+  opacity: 1;
+  list-style-type: none;
+  transition: opacity 200ms ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  aspect-ratio: 20 / 11;
+}
+
+main h2 {
+  margin-bottom: 1.625rem;
+}
+
+main .carousel-progress-bar {
+  background-color: #1a1a1f;
+  height: 1px;
+  margin-bottom: 2rem;
 }

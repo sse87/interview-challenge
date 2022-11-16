@@ -1,6 +1,35 @@
 body {
   margin: 0;
-  font-family: "Work Sans", -apple-system, sans-serif;
+  font-family: 'Work Sans', -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #1a1a1f;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #1a1a1f;
+}
+
+p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #1a1a1f;
+}
+
+button {
+  border: none;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
