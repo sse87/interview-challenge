@@ -6,9 +6,9 @@ export const theme = {
     xl: 1280,
   },
   colors: {
-    dark: "#333",
-    light: "#FFF",
-    primary: "#FEC483",
-    text: "#1A1A1F",
+    dark: '#333',
+    light: '#FFF',
+    primary: '#FEC483',
+    text: '#1A1A1F',
   },
 };
