@@ -11,17 +11,36 @@ function App() {
       {hasSlides && <div className='background-box' />}
       <Header navigation={data.navigation} />
       <main>
-        <ul className='carousel-slides'>
-          {hasSlides && (
-            <li tabIndex='-1' aria-label={data.slides[0].heading} style={{ backgroundImage: `url(${img1})` }} />
-          )}
-        </ul>
-        <Heading text={data.slides[0].heading} />
-        <div className='carousel-progress-bar' />
-        <p>
-          We are a product design and innovation group that cracks tough problems for established organizations looking
-          to change the world.
-        </p>
+        <div className='carousel-top'>
+          <div className='carousel-number'>01 / 04</div>
+          <ul className='carousel-slides'>
+            {hasSlides && (
+              <li tabIndex='-1' aria-label={data.slides[0].heading} style={{ backgroundImage: `url(${img1})` }} />
+            )}
+          </ul>
+          <ul className='carousel-nav'>
+            <li>
+              <button aria-label={`Slide 1`} onClick={() => {}} aria-current={true}>
+                <span />
+              </button>
+            </li>
+            <li>
+              <button aria-label={`Slide 2`} onClick={() => {}} aria-current={false}>
+                <span />
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div className='carousel-bottom'>
+          <Heading className='carousel-heading' text={data.slides[0].heading} />
+          <div className='carousel-paragraph'>
+            <div className='carousel-progress-bar' />
+            <p>
+              We are a product design and innovation group that cracks tough problems for established organizations
+              looking to change the world.
+            </p>
+          </div>
+        </div>
       </main>
     </div>
   );
@@ -29,15 +48,15 @@ function App() {
 
 export default App;
 
-function Heading({ text }) {
+const Heading = ({ text, ...props }) => {
   const headingWithoutLastWord = text.split(' ');
   const headingLastWord = headingWithoutLastWord.pop();
 
   return (
-    <h2>
+    <h2 {...props}>
       {headingWithoutLastWord.join(' ')}
       <br />
       {headingLastWord}
     </h2>
   );
-}
+};
