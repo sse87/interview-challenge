@@ -15,6 +15,12 @@ h2 {
   line-height: 3.5rem;
   color: #1a1a1f;
 }
+@media (min-width: 1280px) {
+  h2 {
+    font-size: 4.375rem;
+    line-height: 4.75rem;
+  }
+}
 
 p {
   font-family: 'Work Sans';
@@ -32,6 +38,11 @@ button {
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+@media (min-width: 1280px) {
+  button {
+    font-size: 0.875rem;
+  }
 }
 
 a {
