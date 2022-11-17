@@ -12,7 +12,8 @@
 @media (min-width: 1280px) {
   .app .background-box {
     top: 0;
-    height: 600px;
+    max-height: 601px;
+    height: 601px;
     width: 48.8%;
   }
 }
@@ -34,7 +35,11 @@ main .carousel-top {
 
 main .carousel-number {
   display: none;
-  /* transform: rotate(-90deg); *//* does not work with the flex bug */
+  position: absolute;
+  top: 145px;
+  left: 0;
+  transform: rotate(-90deg);
+  transform-origin: 100% 0;
 }
 @media (min-width: 1280px) {
   main .carousel-number {
@@ -48,6 +53,24 @@ main ul.carousel-slides {
   max-height: 506px;
   list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+main ul.carousel-slides li {
+  opacity: 1;
+  list-style-type: none;
+  transition: opacity 200ms ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  aspect-ratio: 20 / 11;
+  max-height: 506px;
+}
+
+main ul.carousel-slides li[aria-hidden='true'] {
+  display: none;/* opacity: 0; */
+  transition-delay: 200ms;
+  z-index: -1;
 }
 
 main .carousel-nav {
@@ -58,9 +81,11 @@ main .carousel-nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 506px;
   /* added background color to see the dots on dark background so I could continue */
-  background-color: #333333;
+  position: absolute;
+  top: 145px;
+  right: 200px;
   /* instead of debuging why the image disappear when parent has display: flex; */
 }
 @media (min-width: 1280px) {
@@ -101,17 +126,6 @@ main .carousel-nav li > button[aria-current='true'] > span {
   width: 0.625rem;
 }
 
-main ul.carousel-slides li {
-  opacity: 1;
-  list-style-type: none;
-  transition: opacity 200ms ease;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  aspect-ratio: 20 / 11;
-  max-height: 506px;
-}
-
 main .carousel-bottom {
   display: block;
 }
@@ -136,4 +150,9 @@ main .carousel-progress-bar {
   background-color: #1a1a1f;
   height: 1px;
   margin-bottom: 2rem;
+}
+
+main .carousel-progress-bar > div {
+  background-color: #fec483;
+  height: 1px;
 }

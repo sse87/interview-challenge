@@ -3,7 +3,7 @@ const Navigation = ({ items }) => {
     <nav aria-label='Main'>
       <ul>
         {items.map(({ url, title }) => (
-          <li>
+          <li key={title}>
             <a href={url}>{title}</a>
           </li>
         ))}
